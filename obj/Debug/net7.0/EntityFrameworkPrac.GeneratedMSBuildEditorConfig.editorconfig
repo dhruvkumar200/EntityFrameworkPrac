@@ -9,37 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EntityFrameworkPrac
 build_property.RootNamespace = EntityFrameworkPrac
-build_property.ProjectDir = d:\dotnet project\EntityFrameworkPrac\
+build_property.ProjectDir = D:\dotnet project\EntityFrameworkPrac\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\dotnet project\EntityFrameworkPrac
+build_property.MSBuildProjectDirectory = D:\dotnet project\EntityFrameworkPrac
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/dotnet project/EntityFrameworkPrac/Views/Home/Index.cshtml]
+[D:/dotnet project/EntityFrameworkPrac/Views/Home/Employee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet project/EntityFrameworkPrac/Views/Home/Employeelist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZWxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnet project/EntityFrameworkPrac/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/dotnet project/EntityFrameworkPrac/Views/Home/Privacy.cshtml]
+[D:/dotnet project/EntityFrameworkPrac/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/dotnet project/EntityFrameworkPrac/Views/Shared/Error.cshtml]
+[D:/dotnet project/EntityFrameworkPrac/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/dotnet project/EntityFrameworkPrac/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/dotnet project/EntityFrameworkPrac/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/dotnet project/EntityFrameworkPrac/Views/_ViewImports.cshtml]
+[D:/dotnet project/EntityFrameworkPrac/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/dotnet project/EntityFrameworkPrac/Views/_ViewStart.cshtml]
+[D:/dotnet project/EntityFrameworkPrac/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/dotnet project/EntityFrameworkPrac/Views/Shared/_Layout.cshtml]
+[D:/dotnet project/EntityFrameworkPrac/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fz9ies4xte

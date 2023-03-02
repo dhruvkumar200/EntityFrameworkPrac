@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnet project\\Form\\EntityFrameworkPrac\\EntityFrameworkPrac.csproj": {}
+    "D:\\dotnet project\\EntityFrameworkPrac\\EntityFrameworkPrac.csproj": {}
   },
   "projects": {
-    "D:\\dotnet project\\Form\\EntityFrameworkPrac\\EntityFrameworkPrac.csproj": {
+    "D:\\dotnet project\\EntityFrameworkPrac\\EntityFrameworkPrac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnet project\\Form\\EntityFrameworkPrac\\EntityFrameworkPrac.csproj",
+        "projectUniqueName": "D:\\dotnet project\\EntityFrameworkPrac\\EntityFrameworkPrac.csproj",
         "projectName": "EntityFrameworkPrac",
-        "projectPath": "D:\\dotnet project\\Form\\EntityFrameworkPrac\\EntityFrameworkPrac.csproj",
+        "projectPath": "D:\\dotnet project\\EntityFrameworkPrac\\EntityFrameworkPrac.csproj",
         "packagesPath": "C:\\Users\\dhruv.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnet project\\Form\\EntityFrameworkPrac\\obj\\",
+        "outputPath": "D:\\dotnet project\\EntityFrameworkPrac\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dhruv.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,18 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
