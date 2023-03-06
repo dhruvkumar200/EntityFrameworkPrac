@@ -25,13 +25,10 @@ public partial class EmployeeDBContext : DbContext
     {
         modelBuilder.Entity<EmployeeDetail>(entity =>
         {
-            entity.HasKey(e => e.EmpId);
+            entity.HasKey(e => e.EmpId).HasName("PK_Employee_Details_1");
 
             entity.ToTable("Employee_Details");
 
-            entity.Property(e => e.EmpId)
-                .HasMaxLength(10)
-                .IsFixedLength();
             entity.Property(e => e.Designation)
                 .HasMaxLength(10)
                 .IsFixedLength();

@@ -5,7 +5,7 @@ namespace EntityFrameworkPrac.Entities;
 
 public partial class EmployeeDetail
 {
-    public string EmpId { get; set; } = null!;
+    public int EmpId { get; set; }
 
     public string? Name { get; set; }
 

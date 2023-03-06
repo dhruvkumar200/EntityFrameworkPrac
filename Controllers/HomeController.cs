@@ -46,19 +46,20 @@ public class HomeController : Controller
         }
         return View();
     }
-        public IActionResult AddEmployee(EmployeeModel employeeModel)
+    [HttpPost]
+        public IActionResult AddEmployee(EmployeeDetailsModel EmployeeDetails)
     {
         using (var context=new EmployeeDBContext())
         {
-            EmployeeModel employee=new EmployeeModel();
-            // employee.FirstName=employeeModel.FirstName;
-            // employee.Name=employeeModel.Name;
-            employee.Email=employeeModel.Email;
-            employee.Password=employeeModel.Password;
+            EmployeeDetail Employee=new EmployeeDetail();
+            Employee.Name=EmployeeDetails.Name;
+            Employee.Age=EmployeeDetails.Age;
+            Employee.Salary=EmployeeDetails.salary;
+            Employee.Designation=EmployeeDetails.Designation;
             // employee.ConfirmPassword=employee.ConfirmPassword;
             // employee.Contact=employeeModel.Contact;
-            // context.Forms.Add(employee);
-            // context.SaveChanges();
+            context.EmployeeDetails.Add(Employee);
+            context.SaveChanges();
          
         }
         return RedirectToAction(actionName: "Index", controllerName: "Home");
@@ -79,7 +80,12 @@ public IActionResult Afterlogin()
     //handle your search stuff here...
     return RedirectToAction("Index", "Home");
 }
-     
+
+ public IActionResult EmployeeDetails()
+{
+    //handle your search stuff here...
+    return View();
+}    
     
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
